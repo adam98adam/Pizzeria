@@ -1,0 +1,842 @@
+[
+  {
+    "model": "app.Ingredienttype",
+    "pk": 1,
+    "fields": {
+      "name": "Meat"
+    }
+  },
+  {
+    "model": "app.Ingredienttype",
+    "pk": 2,
+    "fields": {
+      "name": "Cheese"
+    }
+  },
+  {
+    "model": "app.Ingredienttype",
+    "pk": 3,
+    "fields": {
+      "name": "Veggies"
+    }
+  },
+  {
+    "model": "app.Ingredienttype",
+    "pk": 4,
+    "fields": {
+      "name": "Sauce"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 1,
+    "fields": {
+      "imagefilename": "anchovies.png",
+      "name": "Anchovies",
+      "price": "2.0",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 2,
+    "fields": {
+      "imagefilename": "sausage.png",
+      "name": "Sausage",
+      "price": "2.5",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 3,
+    "fields": {
+      "imagefilename": "pepperoni.png",
+      "name": "Pepperoni",
+      "price": "2.0",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 4,
+    "fields": {
+      "imagefilename": "chicken.png",
+      "name": "Chicken",
+      "price": "2.0",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 5,
+    "fields": {
+      "imagefilename": "meatballs.png",
+      "name": "Meatballs",
+      "price": "1.5",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 6,
+    "fields": {
+      "imagefilename": "ham.png",
+      "name": "Ham",
+      "price": "1.0",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 7,
+    "fields": {
+      "imagefilename": "steak.png",
+      "name": "Steak",
+      "price": "2.0",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 8,
+    "fields": {
+      "imagefilename": "bacon.png",
+      "name": "Bacon",
+      "price": "1.5",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 9,
+    "fields": {
+      "imagefilename": "beef.png",
+      "name": "Beef",
+      "price": "1.5",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 10,
+    "fields": {
+      "imagefilename": "salami.png",
+      "name": "Salami",
+      "price": "2.0",
+      "ingredienttype": "1"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 11,
+    "fields": {
+      "imagefilename": "feta.png",
+      "name": "Feta Cheese",
+      "price": "1.5",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 12,
+    "fields": {
+      "imagefilename": "cheddar.png",
+      "name": "Cheddar Cheese",
+      "price": "2.0",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 13,
+    "fields": {
+      "imagefilename": "shaved_parmesan.png",
+      "name": "Shaved Parmesan",
+      "price": "2.5",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 14,
+    "fields": {
+      "imagefilename": "parmesan.png",
+      "name": "Parmesan",
+      "price": "1.5",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 15,
+    "fields": {
+      "imagefilename": "mozzarella.png",
+      "name": "Mozzarella",
+      "price": "1.5",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 16,
+    "fields": {
+      "imagefilename": "goat.png",
+      "name": "Goat",
+      "price": "1.5",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 17,
+    "fields": {
+      "imagefilename": "Ricotta.png",
+      "name": "Ricotta",
+      "price": "1.5",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 18,
+    "fields": {
+      "imagefilename": "blue.png",
+      "name": "Blue",
+      "price": "1.5",
+      "ingredienttype": "2"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 19,
+    "fields": {
+      "imagefilename": "spinach.png",
+      "name": "Spinach",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 20,
+    "fields": {
+      "imagefilename": "mushrooms.png",
+      "name": "Mushrooms",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 21,
+    "fields": {
+      "imagefilename": "red_onion.png",
+      "name": "Red Onion",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 22,
+    "fields": {
+      "imagefilename": "onion.png",
+      "name": "Onion",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 23,
+    "fields": {
+      "imagefilename": "banana_peppers.png",
+      "name": "Banana Peppers",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 24,
+    "fields": {
+      "imagefilename": "pineapple.png",
+      "name": "Pineapple",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 25,
+    "fields": {
+      "imagefilename": "jalapeno.png",
+      "name": "Jalapeno",
+      "price": "2.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 26,
+    "fields": {
+      "imagefilename": "black_olive.png",
+      "name": "Black Olive",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 27,
+    "fields": {
+      "imagefilename": "green_pepper.png",
+      "name": "Green Pepper",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 28,
+    "fields": {
+      "imagefilename": "tomato.png",
+      "name": "Tomatoes",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 29,
+    "fields": {
+      "imagefilename": "garlic.png",
+      "name": "Roasted Garlic",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 30,
+    "fields": {
+      "imagefilename": "artichoke.png",
+      "name": "Artichoke",
+      "price": "1.5",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 31,
+    "fields": {
+      "imagefilename": "basil.png",
+      "name": "Basil",
+      "price": "2.0",
+      "ingredienttype": "3"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 32,
+    "fields": {
+      "imagefilename": "white_sauce.png",
+      "name": "White Sauce",
+      "price": "0.25",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 33,
+    "fields": {
+      "imagefilename": "classic_red_sauce.png",
+      "name": "Classic Red",
+      "price": "0.5",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 34,
+    "fields": {
+      "imagefilename": "sweet_red_sauce.png",
+      "name": "Sweet Red",
+      "price": "0.8",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 35,
+    "fields": {
+      "imagefilename": "spicy_red_sauce.png",
+      "name": "Spicy Red",
+      "price": "0.6",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 36,
+    "fields": {
+      "imagefilename": "taco_sauce.png",
+      "name": "Taco",
+      "price": "1.5",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 37,
+    "fields": {
+      "imagefilename": "buffalo.png",
+      "name": "Buffalo",
+      "price": "1.5",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 38,
+    "fields": {
+      "imagefilename": "pesto.png",
+      "name": "Pesto",
+      "price": "1.5",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Ingredient",
+    "pk": 39,
+    "fields": {
+      "imagefilename": "bbq_sauce.png",
+      "name": "BBQ",
+      "price": "1.5",
+      "ingredienttype": "4"
+    }
+  },
+  {
+    "model": "app.Bakestyle",
+    "pk": 1,
+    "fields": {
+      "name": "Regular"
+    }
+  },
+  {
+    "model": "app.Bakestyle",
+    "pk": 2,
+    "fields": {
+      "name": "Bake Light"
+    }
+  },
+  {
+    "model": "app.Bakestyle",
+    "pk": 3,
+    "fields": {
+      "name": "Bake Extra Well"
+    }
+  },
+  {
+    "model": "app.Bakestyle",
+    "pk": 4,
+    "fields": {
+      "name": "Bake Well"
+    }
+  },
+  {
+    "model": "app.Crust",
+    "pk": 1,
+    "fields": {
+      "crust": "Thin",
+      "price": "1.0"
+    }
+  },
+  {
+    "model": "app.Crust",
+    "pk": 2,
+    "fields": {
+      "crust": "Classic",
+      "price": "1.5"
+    }
+  },
+  {
+    "model": "app.Crust",
+    "pk": 3,
+    "fields": {
+      "crust": "Thick",
+      "price": "2.0"
+    }
+  },
+  {
+    "model": "app.Pizzasize",
+    "pk": 1,
+    "fields": {
+      "diameter": "10",
+      "ingredientcostfactor":"1.00",
+      "name": "Small",
+      "price": "8.0"
+    }
+  },
+  {
+    "model": "app.Pizzasize",
+    "pk": 2,
+    "fields": {
+      "diameter": "12",
+      "ingredientcostfactor":"1.5",
+      "name": "Medium",
+      "price": "10"
+    }
+  },
+  {
+    "model": "app.Pizzasize",
+    "pk": 3,
+    "fields": {
+      "diameter": "14",
+      "ingredientcostfactor":"2.0",
+      "name": "Large",
+      "price": "12"
+    }
+  },
+  {
+    "model": "app.Pizzasize",
+    "pk": 4,
+    "fields": {
+      "diameter": "16",
+      "ingredientcostfactor":"2.5",
+      "name": "X-Large",
+      "price": "14"
+    }
+  },
+  {
+    "model": "app.Pizzasize",
+    "pk": 2,
+    "fields": {
+      "diameter": "12",
+      "ingredientcostfactor":"1.5",
+      "name": "Medium",
+      "price": "10"
+    }
+  },
+  {
+    "model": "app.Cutstyle",
+    "pk": 1,
+    "fields": {
+      "name": "Regular"
+    }
+  },
+  {
+    "model": "app.Cutstyle",
+    "pk": 2,
+    "fields": {
+      "name": "Cut Square"
+    }
+  },
+  {
+    "model": "app.Cutstyle",
+    "pk": 3,
+    "fields": {
+      "name": "Cut in 8"
+    }
+  },
+  {
+    "model": "app.Cutstyle",
+    "pk": 4,
+    "fields": {
+      "name": "Cut in 10"
+    }
+  },
+  {
+    "model": "app.Cutstyle",
+    "pk": 5,
+    "fields": {
+      "name": "Cut in 12"
+    }
+  },
+  {
+    "model": "app.User",
+    "pk": 1,
+    "fields": {
+      "name": "Adam",
+      "surname": "Kowalski",
+      "email":"akowalski@gmail.com",
+      "phonenumber": "123456789",
+      "customer": "True"
+    }
+  },
+  {
+    "model": "app.User",
+    "pk": 2,
+    "fields": {
+      "name": "Tomasz",
+      "surname": "Saski",
+      "email":"tsaski@gmail.com",
+      "phonenumber": "123456788",
+      "customer": "False"
+    }
+  },
+  {
+    "model": "app.Account",
+    "pk": 1,
+    "fields": {
+      "login": "statek98",
+      "password": "Rakieta19",
+      "user": "1"
+    }
+  },
+  {
+    "model": "app.Account",
+    "pk": 2,
+    "fields": {
+      "login": "zawodnik90",
+      "password": "Kubek12",
+      "user": "2"
+    }
+  },
+  {
+    "model": "app.Customeraddress",
+    "pk": 1,
+    "fields": {
+      "city": "Gdansk",
+      "street": "Wysoka",
+      "number":"6",
+      "user": "1"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 1,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"27"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 2,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"20"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 3,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"23"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 4,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"21"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 5,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"28"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 6,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"33"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 7,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"27"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 8,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"20"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 9,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"23"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 10,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"21"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 11,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"28"
+    }
+  },
+  {
+    "model": "app.Pizzaitem",
+    "pk": 12,
+    "fields": {
+      "quantity": "1",
+      "ingredient":"33"
+    }
+  },
+  {
+    "model": "app.Pizzaside",
+    "pk": 1,
+    "fields": {
+      "name": "The Veggie"
+    }
+  },
+  {
+    "model": "app.Pizzaside",
+    "pk": 2,
+    "fields": {
+      "name": "The Veggie"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 1,
+    "fields": {
+      "pizzaside": "1",
+      "pizzaitem": "1"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 2,
+    "fields": {
+      "pizzaside": "1",
+      "pizzaitem": "2"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 3,
+    "fields": {
+      "pizzaside": "1",
+      "pizzaitem": "3"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 4,
+    "fields": {
+      "pizzaside": "1",
+      "pizzaitem": "4"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 5,
+    "fields": {
+      "pizzaside": "1",
+      "pizzaitem": "5"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 6,
+    "fields": {
+      "pizzaside": "1",
+      "pizzaitem": "6"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 7,
+    "fields": {
+      "pizzaside": "2",
+      "pizzaitem": "7"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 8,
+    "fields": {
+      "pizzaside": "2",
+      "pizzaitem": "8"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 9,
+    "fields": {
+      "pizzaside": "2",
+      "pizzaitem": "9"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 10,
+    "fields": {
+      "pizzaside": "2",
+      "pizzaitem": "10"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 11,
+    "fields": {
+      "pizzaside": "2",
+      "pizzaitem": "11"
+    }
+  },
+  {
+    "model": "app.pizzaitem_pizzaside",
+    "pk": 12,
+    "fields": {
+      "pizzaside": "2",
+      "pizzaitem": "12"
+    }
+  },
+  {
+    "model": "app.Pizza",
+    "pk": "1",
+    "fields": {
+      "bakestyle": "1",
+      "crust": "1",
+      "cutstyle": "1",
+      "size": "1",
+      "left_pizzaside": "1",
+      "right_pizzaside": "2"
+    }
+  },
+  {
+    "model": "app.Orderitem",
+    "pk": "1",
+    "fields": {
+      "quantity": "1",
+      "pizza": "1"
+    }
+  },
+  {
+    "model": "app.Orderitemtemplate",
+    "pk": "1",
+    "fields": {
+      "imagefilename":"the_veggie.jpg",
+      "orderitem": "1"
+    }
+  }
+
+]

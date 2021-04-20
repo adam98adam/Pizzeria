@@ -8,7 +8,7 @@ class User(models.Model):
     surname = models.CharField(max_length=255, blank=False)
     email = models.CharField(max_length=255, blank=False, unique=True)
     phonenumber = models.CharField(max_length=255, blank=False, unique=True)
-    customer = models.BooleanField(default=False)
+    customer = models.BooleanField(default=True)
 
 
 class Customeraddress(models.Model):
@@ -38,14 +38,14 @@ class Cutstyle(models.Model):
 
 
 class Pizzasize(models.Model):
-    diameter = models.IntegerField(blank=False)
-    ingredientcostfactor = models.FloatField(blank=False)
-    name = models.CharField(max_length=255, blank=False)
-    price = models.FloatField(blank=False)
+    diameter = models.IntegerField(blank=False, unique=True)
+    ingredientcostfactor = models.FloatField(blank=False,unique=True)
+    name = models.CharField(max_length=255, blank=False, unique=True)
+    price = models.FloatField(blank=False, unique=True)
 
 
 class Pizzaside(models.Model):
-    name = models.CharField(max_length=255, blank=False, unique=True)
+    name = models.CharField(max_length=255, blank=False)
 
 
 class Ingredienttype(models.Model):
@@ -88,11 +88,11 @@ class Deliveryaddress(models.Model):
 
 class Orderitem(models.Model):
     quantity = models.IntegerField(blank=False)
-    order = models.ForeignKey(Order, on_delete=models.CASCADE)
+    order = models.ForeignKey(Order, null=True, on_delete=models.CASCADE)
     pizza = models.ForeignKey(Pizza, on_delete=models.CASCADE)
 
 
 class Orderitemtemplate(models.Model):
-    description = models.CharField(max_length=255, blank=False, unique=True)
+    description = models.CharField(max_length=255)
     imagefilename = models.CharField(max_length=255, blank=False, unique=True)
     orderitem = models.ForeignKey(Orderitem, on_delete=models.CASCADE)
